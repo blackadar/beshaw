@@ -63,3 +63,11 @@
     background-color: #000000;
     text-align: center;
 }
+/* spacing on all sections */
+#about, #services, #showcase, #contact {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+#contact {
+    padding-bottom: 2rem;
+}
