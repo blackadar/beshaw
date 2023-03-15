@@ -47,3 +47,19 @@
 .navbarScroll.navbarDark {
     background-color: black;
 }
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-envelope:hover, .fa-phone:hover {
+    color: #4d288e;
+}
+.fa-regular, .fa-solid {
+    color: #ffffff;
+}
+/* footer styling */
+#footer {
+    background-color: #000000;
+    text-align: center;
+}
