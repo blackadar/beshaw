@@ -1,9 +1,12 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/hero.jpg');
-    background-size:cover;
-    position:center;
+    background: url('images/hero.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
 }
 /* text css above hero image*/
 .hero_title {
