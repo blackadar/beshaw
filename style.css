@@ -46,6 +46,14 @@
 .servicesText:hover {
     border: 1px solid #4d288e;
 }
+/* showcase css */
+.carousel-item {
+overflow: hidden;
+width: 100%;
+}
+.carousel-item img {
+width: 100%;
+}
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
