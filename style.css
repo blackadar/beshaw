@@ -2,15 +2,15 @@
 .bgimage {
     height:100vh;
     background: url('images/hero.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
 @media (max-width: 768px) {
     .bgimage {
         background: url('images/hero_mobile.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         position: relative;
     }
 }
