@@ -11,11 +11,11 @@
 @media (max-width: 768px) {
     .bgimage {
         background: url('images/hero_mobile.jpg') no-repeat center center fixed;
-        height:100vh;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        position: relative;
     }
 }
 /* text css above hero image*/
