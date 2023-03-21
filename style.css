@@ -8,15 +8,19 @@
     background-size: cover;
     position: relative;
 }
-@media (min-width: 768px) {
-    background: url('images/hero_mobile.jpg') no-repeat center top;
+@media (max-width: 768px) {
+    .bgimage {
+        background: url('images/hero_mobile.jpg') no-repeat center center fixed;
+    }
 }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 .hero_desc {
     font-size: 2rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 .hero-text {
     text-align: center;
